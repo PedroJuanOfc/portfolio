@@ -1,51 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="assets/logo1.png" alt="Logo" />
-            </div>
-            <ul>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <nav>
+        <h1 class="logo">Pedro Juan</h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
     </header>
-    
-    <section class="hero">
-        <div class="container">
-            <div class="texto">
-                <h1>Olá, eu sou Pedro Juan,<br> Desenvolvedor de Software</h1>
-                <a href="assets/curriculo.pdf" download="Curriculo_Pedro_Juan.pdf" class="btn">Baixar currículo</a>
+
+    <main>
+        <section id="home" class="home">
+            <div class="hero">
+                <div class="hero-text">
+                    <header class="hero-header">
+                        <h1>Olá, eu sou o Pedro Juan, desenvolvedor Full-Stack!</h1>
+                    </header>
+                    <div class="hero-content">
+                        <p>Aqui você encontra meus projetos e minha trajetória.</p>
+                    </div>
+                    <div class="hero-links">
+                        <a href="https://github.com/PedroJuanOfc" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pedro-juan-ferreira-saraiva/" target="_blank">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="assets/curriculo.pdf" download class="btn-curriculo">Baixar Currículo</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/foto.jpeg" alt="Foto de Pedro Juan">
+                </div>
             </div>
-            <div class="foto">
-                <img src="assets/foto.jpeg" alt="Minha Foto" loading="lazy">
-            </div>
-        </div>
-        <div class="scroll-down">
-            <a href="#sobre">
-                <span>Sobre mim</span>
-                <div class="arrow"></div>
-            </a>
-        </div>
-    </section>
-    
-    <section id="sobre" class="sobre">
-        <div class="container">
-            <h2>Sobre mim</h2>
-            <p>Sou desenvolvedor de software e formado em Análise e Desenvolvimento de Sistemas, com mais de 4 anos de experiência em programação. Durante esse período, desenvolvi uma paixão por criar soluções inovadoras que resolvem problemas reais das pessoas através de software. <br> Tenho habilidades avançadas em Swift e desenvolvimento iOS, além de experiência com HTML, CSS, JavaScript, Python, React, TypeScript e .NET. Minha experiência abrangente em várias tecnologias me permite trabalhar em projetos diversificados e entregar soluções completas, desde a interface do usuário até o backend. <br>  Também tenho experiência com Git e versionamento de código, além de conhecimento em Azure DevOps para gerenciamento de projetos e integração contínua.</p>
-        </div>
-    </section>
-    
-    <script src="script.js"></script>
-</body>
+        </section>
+    </main>
+  </body>
 </html>
