@@ -9,15 +9,18 @@
   </head>
   <body>
     <header class="navbar">
-      <nav>
-        <h1 class="logo">Pedro Juan</h1>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
+        <nav>
+            <h1 class="logo">Pedro Juan</h1>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class='bx bx-menu'></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -46,5 +49,11 @@
             </div>
         </section>
     </main>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.nav-links');
+            menu.classList.toggle('active');
+        }
+    </script>
   </body>
 </html>
