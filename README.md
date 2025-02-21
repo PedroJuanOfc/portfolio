@@ -1,29 +1,7 @@
-# 📌 Portfólio - Pedro Juan
+Portfólio
 
-Este é o meu portfólio pessoal, onde irei apresentar minha experiência, habilidades e projetos. Criado utilizando **HTML, CSS e JavaScript**, ele representa um pouco do meu trabalho como desenvolvedor.
+Olá, sou Pedro Juan, tenho 24 anos e sou programador.
 
-## 🔥 Tecnologias Utilizadas
-- **HTML5** para estruturação do conteúdo
-- **CSS3** para estilização e responsividade
+No último ano, me dediquei quase que exclusivamente ao desenvolvimento de apps para iOS usando SwiftUI. Nesse processo, acabei deixando algumas coisas de lado e percebi que não usava o GitHub como deveria. Então resolvi limpar projetos antigos e finalmente criar o portfólio que nunca tive.
 
-## 📂 Estrutura do Projeto
-```
-📁 meu-portfolio
-│-- 📁 assets/            # Imagens e arquivos estáticos
-│   │-- logo.png          # Logo do portfólio
-│   │-- foto.jpeg         # Minha foto de perfil
-│-- 📄 index.html         # Página principal
-│-- 📄 styles.css         # Estilos do site
-│-- 📄 README.md          # Documentação do projeto
-```
-
-## 🚀 Funcionalidades Implementadas
-✅ Seção **Hero** com apresentação e botão para baixar currículo  
-✅ Navegação fluída entre seções  
-✅ Seção **Sobre Mim** com informações detalhadas  
-✅ Responsividade para diferentes tamanhos de tela  
-
-## 🎯 Melhorias Futuras
-- Adicionar mais seções como **Skills** e **Projetos**
-- Melhorar a interatividade com JavaScript
-- Implementar um formulário de contato funcional
+Montar esse portfólio tem sido um desafio. Estou começando com o que sei – HTML, CSS e JavaScript – não só para construir algo do zero, mas também para relembrar fundamentos importantes. Ainda não tem muita coisa aqui, mas estou trabalhando para melhorar a cada dia.
