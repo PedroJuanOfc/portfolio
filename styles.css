@@ -24,7 +24,7 @@ header .navbar {
 nav {
     display: flex;
     align-items: center;
-    background: #222;
+    background: #202e69;
     padding: 15px 120px; 
     justify-content: space-between;
 }
@@ -114,7 +114,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(135deg, #222, #333);
+    background: linear-gradient(135deg, #202e69, #333);
     color: white;
     padding: 0 10%;
 }
@@ -179,7 +179,7 @@ nav ul li a:hover {
 }
 
 .btn-curriculo {
-    background-color: #00c3ff;
+    background-color: #109cc7;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
