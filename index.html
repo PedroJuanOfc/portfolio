@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Portfólio</title>
+    <title>Portfólio</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -18,7 +18,7 @@
           <i class="bx bx-menu"></i>
         </div>
         <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
+          <li><a href="#">Home</a></li>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
@@ -104,6 +104,30 @@
           </div>
           <div class="card">
             <div class="card-image">
+              <img src="assets/placeholder.jpg" alt="Projeto 2" />
+            </div>
+            <div class="card-title">
+              <h3>Em breve...</h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/placeholder.jpg" alt="Projeto 2" />
+            </div>
+            <div class="card-title">
+              <h3>Em breve...</h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/placeholder.jpg" alt="Projeto 2" />
+            </div>
+            <div class="card-title">
+              <h3>Em breve...</h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
               <img src="assets/placeholder.jpg" alt="Projeto 3" />
             </div>
             <div class="card-title">
@@ -112,6 +136,29 @@
           </div>
         </div>
       </section>
+
+      <section id="contato" class="contact">
+        <header class="contact-header">
+          <h1>Entre em contato</h1>
+          <p>Tem alguma dúvida ou quer trocar uma ideia? Me envie uma mensagem!</p>
+        </header>
+        <form class="contact-form">
+          <div class="input-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" placeholder="Seu nome" required />
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Seu email" required />
+          </div>
+          <div class="input-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" rows="5" placeholder="Sua mensagem" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+      </section>
+
     </main>
     <script>
       function toggleMenu() {
