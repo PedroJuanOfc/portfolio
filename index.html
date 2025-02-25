@@ -23,8 +23,12 @@
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">
+          <i class="bx bx-moon"></i>
+        </button>
       </nav>
     </header>
+    
 
     <main>
       <section id="home" class="home">
@@ -160,11 +164,6 @@
       </section>
 
     </main>
-    <script>
-      function toggleMenu() {
-        const menu = document.querySelector(".nav-links");
-        menu.classList.toggle("active");
-      }
-    </script>
+    <script src="scripts.js"></script>
   </body>
 </html>

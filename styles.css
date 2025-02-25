@@ -402,3 +402,72 @@
       width: 100%;
     }
   }
+
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+
+.dark-mode-toggle:hover {
+  color: rgb(120, 67, 236);
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .navbar {
+  background-color: #1e1e1e;
+}
+
+.dark-mode nav {
+  background: #1e1e1e;
+}
+
+.dark-mode .logo {
+  color: white;
+}
+
+.dark-mode .nav-links li a {
+  color: white;
+}
+
+.dark-mode .nav-links li a:hover {
+  color: rgb(120, 67, 236);
+}
+
+.dark-mode .hero {
+  background-color: #222;
+}
+
+.dark-mode .projects {
+  background-color: #222;
+}
+
+.dark-mode .about {
+  background-color: #222;
+}
+
+.dark-mode .contact {
+  background-color: #222;
+}
+
+.dark-mode .contact-form {
+  background: #333;
+}
+
+.dark-mode .btn-curriculo,
+.dark-mode .btn-submit {
+  background-color: rgb(120, 67, 236);
+}
+
+.dark-mode .btn-curriculo:hover,
+.dark-mode .btn-submit:hover {
+  background-color: rgb(109, 54, 226);
+}
