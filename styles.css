@@ -417,6 +417,14 @@
   color: rgb(120, 67, 236);
 }
 
+.dark-mode .dark-mode-toggle {
+  color: white; 
+}
+
+.dark-mode .dark-mode-toggle:hover {
+  color: rgb(120, 67, 236);
+}
+
 .dark-mode {
   background-color: #121212;
   color: white;
@@ -435,39 +443,77 @@
 }
 
 .dark-mode .nav-links li a {
-  color: white;
+  color: #ddd;
 }
 
 .dark-mode .nav-links li a:hover {
   color: rgb(120, 67, 236);
 }
 
+/* Hero Section */
 .dark-mode .hero {
-  background-color: #222;
+  background-image: url(assets/bg_2.jpg); 
+  color: white;
+}
+
+.dark-mode .hero-links a i {
+  color: white;
+}
+
+.dark-mode .hero-links a:hover i {
+  color: rgb(120, 67, 236);
 }
 
 .dark-mode .projects {
-  background-color: #222;
+  background-image: url(assets/bg_2.jpg);
+  color: white;
 }
 
 .dark-mode .about {
   background-color: #222;
+  color: white;
 }
 
 .dark-mode .contact {
   background-color: #222;
+  color: white;
 }
 
 .dark-mode .contact-form {
   background: #333;
+  color: white;
+}
+
+.dark-mode .hero-text h1,
+.dark-mode .about-text h1,
+.dark-mode .projects-header h1,
+.dark-mode .contact-header h1 {
+  color: white;
+}
+
+.dark-mode .hero-text p,
+.dark-mode .about-text p,
+.dark-mode .projects p,
+.dark-mode .contact-header p {
+  color: #ccc;
 }
 
 .dark-mode .btn-curriculo,
 .dark-mode .btn-submit {
   background-color: rgb(120, 67, 236);
+  color: white;
 }
 
 .dark-mode .btn-curriculo:hover,
 .dark-mode .btn-submit:hover {
   background-color: rgb(109, 54, 226);
 }
+
+.dark-mode .dark-mode-toggle {
+  color: white;
+}
+
+.dark-mode .dark-mode-toggle:hover {
+  color: rgb(120, 67, 236);
+}
+
