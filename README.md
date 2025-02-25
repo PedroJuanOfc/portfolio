@@ -1,4 +1,4 @@
-Portfólio
+Link do portfólio: https://pedrojuanofc.github.io/portfolio/
 
 Olá, sou Pedro Juan, tenho 24 anos e sou programador.
 
